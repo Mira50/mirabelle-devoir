@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a  href="#" class="logo">Benin voyage</a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#" class="ens">ACCUEIL</a></li>
+                <li><a href="#" class="ens">A PROPOS</a></li>
+                <li><a href="#" class="ens">CONTACT</a></li>
+                <li><a href="formulaire.php"><button class="btn">Réservation</button></a></li>
+            </ul>
+        </div>
+        
+        <img src="log1.png" alt=""  class="menu-burger">
+    </nav>
+    <header></header>
+</body>
+    <script>
+        const menu = document.querySelector(".menu-burger")
+        const nav = document.querySelector(".nav-links")
+
+        menu.addEventListener('click',()=>{
+            nav.classList.toggle('mobile-menu')})
+    </script>
+</html>
