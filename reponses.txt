@@ -1,0 +1,5 @@
+a)La commande git fetch récupère les modifications à partir du référentiel distant et  permet d'examiner les modifications avant de les fusionner, tandis que git pull récupère et fusionne automatiquement les modifications du référentiel distant avec notre référentiel local.
+b)Pour annuler les modifactions locales non validées dans git on utilisera la commande "git log" pour voir les commit qu'on a eu à faire et avec à l'id du commit nous utiliserons la commande "git checkout <id_du_commit>" pour revenir ou annuler les modifications locales.
+c)Pour supprimer une brache on utilisera la commande git branch -r
+d) On peut voir l'historique des modifications pour un fichier spécifique dans git en utilisant la commande "git log"
+
